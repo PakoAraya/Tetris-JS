@@ -30,6 +30,18 @@ body {
   height: 100vh;
 }
 
+section{
+  position:absolute;
+  background: black;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  inset: 0;
+  display: grid;
+  font-size: 48px;
+  place-content: center;
+}
+
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
